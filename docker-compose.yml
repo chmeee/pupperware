@@ -17,6 +17,7 @@ services:
       - ./volumes/code:/etc/puppetlabs/code/
       - ./volumes/puppet:/etc/puppetlabs/puppet/
       - ./volumes/serverdata:/opt/puppetlabs/server/data/puppetserver/
+      - ./volumes/r10k:/etc/puppetlabs/r10k/
     networks:
       default:
 
